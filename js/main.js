@@ -8,3 +8,5 @@ while (palabra != "ESC") {
     palabra = prompt('Introduzca la siguiente palabra o escriba "ESC" para cancelar:'); // se pide una nueva palabra
     frase = frase + " " + palabra; // se concatena la nueva palabra
 };
+
+alert('La frase final es: ' + frase);
